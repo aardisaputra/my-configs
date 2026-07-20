@@ -1,6 +1,6 @@
 # my-configs
 
-Neovim, WezTerm, and zsh configuration, symlinked into their expected
+Neovim, WezTerm, zsh, and tmux configuration, symlinked into their expected
 locations so editing either the symlink path or the file here edits the
 same file.
 
@@ -11,6 +11,7 @@ git clone https://github.com/aardisaputra/my-configs.git ~/dotfiles
 ln -s ~/dotfiles/nvim ~/.config/nvim
 ln -s ~/dotfiles/wezterm ~/.config/wezterm
 ln -s ~/dotfiles/zsh/.zshrc ~/.zshrc
+ln -s ~/dotfiles/tmux/.tmux.conf ~/.tmux.conf
 ```
 
 Also required on the new machine:
